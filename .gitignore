@@ -1,0 +1,53 @@
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Java build directories
+bin/
+out/
+target/
+
+# Java logs
+hs_err_pid*
+replay_pid*
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Eclipse / IntelliJ
+*.iml
+*.iws
+*.ipr
+*.project
+*.classpath
+.settings/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.log
+*.tmp
