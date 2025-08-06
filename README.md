@@ -5,13 +5,13 @@ This repository contains my solutions to LeetCode Data Structures & Algorithms p
 ## Folder Structure
 
 leetcode-dsa/
-├── java/
-│ ├── foundation/
-├── python/
-│ ├── set/
-| |
 
-─
+- `java/`
+  - `crio_sheet/ `
+  - `foundation/`
+- `python/`
+  - `crio_sheet/`
+  - `foundation/`
 
 Each topic folder contains solution files named as:
 
