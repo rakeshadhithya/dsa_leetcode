@@ -1,22 +1,18 @@
 # Link: https://leetcode.com/problems/capitalize-the-title/
-class Solution(object):
-    def capitalizeTitle(self, title):
-        """
-        :type title: str
-        :rtype: str
-        """ 
-        # convert the given str to list of char's
+class Solution:
+    def capitalizeTitle(self, title: str) -> str:
+         #convert the given str to list of char's and take 2 ptrs first and last
         char_list = list(title)
         first = 0
         last= 0
+        #until last reaches end
         while last < len(char_list):
-            # move last to the first space found
+            #move last to next space making uppercase char's to lowercase
             while last < len(char_list) and char_list[last] != ' ':
-                # if last char uppercase make it lowercase
                 if 65 <= ord(char_list[last]) <= 90:
                     char_list[last] = chr( ord(char_list[last]) + 32)
                 last += 1
-            #if word len > 2 and if first char lowercase make it uppercase
+            #if len of word > 2 and char at first lowercase make it uppercase, move first and last to next word
             if last - first > 2 and 97 <= ord(char_list[first]) <= 122:
                 char_list[first] = chr(ord(char_list[first]) - 32)
             first = last + 1
