@@ -1,4 +1,11 @@
 # Link: https://leetcode.com/problems/capitalize-the-title/
+
+# ONE LINE SOLUTION using python str functions and list comprehension
+# split titile, for each word if len <= 2 convert to lower else convert to capitalize
+# return ' '.join([word.lower() if len(word) <= 2 else word.capitalize() for word in title.split()])
+
+
+#Alternate solution: without any builtin functions using two pointers
 class Solution:
     def capitalizeTitle(self, title: str) -> str:
          #convert the given str to list of char's and take 2 ptrs first and last
@@ -19,11 +26,6 @@ class Solution:
             last += 1
         # convert list to str and return
         return ''.join(char_list)
-    
-        # ONE LINE SOLUTION using python str functions and list comprehension
-        # split titile, for each word if len <= 2 convert to lower else convert to capitalize
-        # return ' '.join([word.lower() if len(word) <= 2 else word.capitalize() for word in title.split()])
-    
 
 '''
  Efficiency:

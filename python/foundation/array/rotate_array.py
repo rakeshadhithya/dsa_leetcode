@@ -1,12 +1,17 @@
-from typing import *
 #Link: https://leetcode.com/problems/rotate-array/description/
+
+
+# one line solution first k %= nums, take last k elements and first len-k elements and concatenate 
+# nums[:] = nums[-k:] + nums[:-k]
+
+#Alternate solution: without any builtin functions using two pointers
+from typing import *
 class Solution:
     def reverse(self, nums, first, last):
         while( first < last):
             nums[first], nums[last] = nums[last], nums[first] 
             first += 1
-            last -= 1
-            
+            last -= 1 
     def rotate(self, nums: List[int], k: int) -> None:
         """
         Do not return anything, modify nums in-place instead.
@@ -20,9 +25,6 @@ class Solution:
         # reverse next of kth digit(k) till last
         self.reverse(nums, k, len(nums)-1)
         
-
-        # one line solution after k %= nums, take last k elements and upto k elements and concatanate 
-        # nums[:] = nums[-k:] + nums[:-k]
 
 
 '''
