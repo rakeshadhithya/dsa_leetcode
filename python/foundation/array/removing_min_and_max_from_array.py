@@ -1,6 +1,6 @@
 #LINK: https://leetcode.com/problems/removing-minimum-and-maximum-from-array/
 
-
+from typing import List
 class Solution:
     def minimumDeletions(self, nums: List[int]) -> int:
         #initialise ptrs and values(take less and more than constraint values)
@@ -20,3 +20,5 @@ class Solution:
         right = max(min_index, max_index)
         return min( right + 1, left + 1 + len(nums) - right, len(nums) - left )
         
+#TC: O(N) : index pointer visits each element of given list once O(N)
+#SC: O(1) : only constant spaces taken
