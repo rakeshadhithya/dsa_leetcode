@@ -17,3 +17,6 @@ class Solution:
                 max2 = num
         #return max1-1 * max2-1
         return (max1 - 1) * (max2 - 1)
+    
+#TC: O(N) : num iterates through each element in nums
+#SC: O(1) : only constant spaces are taken

@@ -20,3 +20,6 @@ class Solution:
             #update max
             maximum = max( maximum, list[i])
         return maximum
+    
+#TC: O(N) : i iterates through each element from 2 to n+1
+#SC: O(N) : list takes size n+1

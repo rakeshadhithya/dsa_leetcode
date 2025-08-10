@@ -37,3 +37,7 @@ class Solution:
                 if self.check_magic_square(grid, row, col):
                     count += 1
         return count
+    
+#TC: O(row*col) : row and col operate through each element in given matrix, check_magic_square function takes O(1)
+# only becuase no matter the size of input it performs calculations on 3*3 only. 
+#SC: O(1) : only constant spaces are taken

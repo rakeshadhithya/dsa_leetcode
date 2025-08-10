@@ -8,10 +8,10 @@ leetcode-dsa/
 
 - `java/`
   - `crio_sheet/ `
-  - `foundation/`
+  - `crio_dsa_1/`
 - `python/`
   - `crio_sheet/`
-  - `foundation/`
+  - `crio_dsa_1/`
 
 Each topic folder contains solution files named as:
 

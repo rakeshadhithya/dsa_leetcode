@@ -25,3 +25,6 @@ class Solution:
         return end - start + 1
     def longestSubstring(self, s: str, k: int) -> int:
         return self.longest_substring_helper(s, k, 0, len(s)-1)
+
+#TC: 
+#SC: 
