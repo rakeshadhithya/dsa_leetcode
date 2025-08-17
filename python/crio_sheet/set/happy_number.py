@@ -17,8 +17,6 @@ class Solution:
 #TC: O(log(10)N) : n iterates through each number in sequence until its 1 or repeated, the max iterations is the
 # max number which is 81 * number of digits. no. of digits in a base 10 number is log(10)N
 #SC: O(1) : seen stores numbers from 1 to max number, even for 2^31-1 (10 digits) the max is 10 * 81 810 numbers
-
-
 '''
 PIGEON HOLE PRINCIPLE
 its a mathematical principle used in combinatorics, If you put n + 1 or more objects into n boxes, 
