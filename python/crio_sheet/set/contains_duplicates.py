@@ -6,4 +6,4 @@ class Solution:
         #add elements to set and compare lengths
         return len(set(nums)) != len(nums)
 #TC: O(N) : set() function traverses each element of nums
-#SC: O(N) : set object stores all elements of nums in worst case
+#SC: O(N) : set object stores all elements of nums in worst case 
