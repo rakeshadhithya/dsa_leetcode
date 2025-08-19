@@ -36,3 +36,6 @@ class Solution:
             #add currlist to main list
             ans.append(currlist)
         return ans
+#TC: O(N) : each node is enqued and dequed exactly once * all functions for node processing takes O(1)
+#SC: O(N) :ans stores all nodes O(N), currlist stores at most one level O(width) <= O(N/2), 
+# queue also stores at most one level O(width) <= O(N/2), sum of all give N
