@@ -8,7 +8,7 @@ class TreeNode:
         self.right = right
 from typing import Optional, List
 class Solution:
-    #logic: prorder: node, leftree, rightree. inorder: leftree, node, rightree. preorder traversal is the only way to find root. from preorder array form root, root left(+1), root right(+leftreelength find from inordermap)
+    #traverses in preorder, take root from preorder array, determine subtrees from inorder array
     def build(self, preorder, in_map, root_index, in_left, in_right):
         if in_left > in_right:
             return None
@@ -23,11 +23,10 @@ class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         in_map = {inorder[i] : i for i in range(len(inorder))}
         return self.build(preorder, in_map, [0], 0, len(inorder) - 1)
+    
+#TC: O(N) : in_map creation traverses inorder list O(N) + in each node constant time O(1) * total nodes O(N)
+#SC: O(N) : in_map stores O(N) + max(in each node new TreeNode created O(1) * total nodes O(N), recursion depth O(N) in worst case)
         
-
-
-
-
 
 
 '''
