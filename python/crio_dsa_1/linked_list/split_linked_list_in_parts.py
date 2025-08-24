@@ -9,7 +9,7 @@ class ListNode:
 #intuition: k parts needed, each part has size//k elements, first size % k elements contain 1 extra element. 
 # (works for both k < size and k > size)
 
-from typing import Optional
+from typing import Optional, List
 class Solution:
     def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
         #take ans list, size, counter = 0, ptr = head
