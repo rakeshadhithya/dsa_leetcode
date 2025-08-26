@@ -22,10 +22,9 @@ Each topic folder contains solution files named as:
 
 ## Features
 
-- Clean and readable code
 - Time and space Complexities
+- Clean and readable code
 - includes comments or explanations
-- Multiple languages for some problems (Java + Python)
 
 ## About Me
 
