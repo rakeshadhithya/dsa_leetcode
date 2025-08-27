@@ -19,8 +19,8 @@ class Solution:
 #SC: O(1) : freq1 takes constant space O(26), freq2 takes constant space O(26)
 
 #ALTERNATE SOLUTIONS:
-#1. You can use Counter function and ==
-#2. You can use count method 
+#1. You can use Counter function and ==. O(N) time O(N) space
+#2. You can use count method and single loop on any set(word). O(N^2) time, O(1) space for set of chars
 
 '''
 anagram, nagaram
