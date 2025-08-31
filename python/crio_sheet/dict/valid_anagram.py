@@ -13,7 +13,7 @@ class Solution:
             if freq1[i] != freq2[i]:
                 return False
         return True
-    
+
 #TC: O(N + M) N and M are same length so O(N) : c iterates through each char in s O(N), another c iterates through 
 # each char in t O(M). i takes constant time
 #SC: O(1) : freq1 takes constant space O(26), freq2 takes constant space O(26)
