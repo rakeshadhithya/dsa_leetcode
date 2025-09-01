@@ -20,7 +20,7 @@ class Solution:
 
 #ALTERNATE SOLUTIONS:
 #1. You can use Counter function and ==. O(N) time O(1) space due to limited chars
-#2. You can use count method and single loop on any set(word). O(N^2) time, O(1) space for set of chars
+#2. single loop on any set(word) and you can use count method. O(N^2) time, O(1) space for set of chars
 
 '''
 anagram, nagaram
