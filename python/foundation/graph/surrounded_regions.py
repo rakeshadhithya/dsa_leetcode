@@ -34,14 +34,10 @@ class Solution:
 
 
         
-'''
-for each border o, mark as s and then using bfs/dfs mark connecting o's to s
-traverse entire board mark s to o and o to x
-'''
+
 
 
 '''
-same problem but taking input from console
 def dfs(matrix, r, c, tr, tc):
     #if r,c out of boudaries or not O return else make it S and do same for surrounding cells
     if r < 0 or r >=tr or c < 0 or c >= tc or matrix[r][c] != 'O':
@@ -85,6 +81,7 @@ except:
     for r in matrix:
         print(r)
 
+
 PS D:\coding\ssssdp\homeworks\sethubatch2dataengnieer> & "C:/Program Files/Python311/python.exe" d:/coding/ssssdp/homeworks/sethubatch2dataengnieer/graph_probs.py
 Enter rows with either 'O' or 'S' until ctrl + z: 
 X X X X X
@@ -112,3 +109,4 @@ After Solving:
 ['O', 'O', 'O', 'X', 'X']
 
 '''
+

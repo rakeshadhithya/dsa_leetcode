@@ -40,7 +40,7 @@ def solve(grid):
             x2, y2 = move_pos
             visited[x2][y2] = True
             turn = 1
-    return p1_scr
+    #return p1_scr
 #read matrix
 matrix = []
 try:
