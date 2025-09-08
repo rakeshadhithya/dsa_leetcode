@@ -18,9 +18,9 @@ for l in C:
 #TC: O(M*P*N) : creation of C takes O(m) * O(p) i.e. O(m*p) + i iterates throgh each row of A O(m) * j iterates through 
 # each col of B O(p) * k iterates through each col of A O(n)
 #SC: A stores matrix 1 O(mxn), B stores matrix 2 O(nxp), C stores resultant matrix O(mxp)
-    # total: O(mxn + nxp + mxp )
-    # dominant: O(max(mxn, nxp, mxp ))
-    # auxilary:(without inputs): O(mxp)
+    # total: O(m*n + n*p + m*p )
+    # dominant: O(max(m*n, n*p, m*p ))
+    # auxilary:(without inputs): O(m*p)
 '''
 matrix multiplication:
 A = m x n
