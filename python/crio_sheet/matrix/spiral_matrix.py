@@ -28,3 +28,5 @@ class Solution:
                     result.append(matrix[row][left])
                 left += 1
         return result
+#TC: O(N * M) : we traverse each cell once
+#SC: O(N * M) : we store each cell value in a list
