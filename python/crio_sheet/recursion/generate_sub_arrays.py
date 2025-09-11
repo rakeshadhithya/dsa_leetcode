@@ -1,9 +1,11 @@
+#dfs backtracking. because it has paths to explore
 def find_all_subsequences(arr, i, path, res):
     for k in range(i, len(arr)):
         path.append(arr[k])
         res.append(path.copy())
         find_all_subsequences(arr, k + 1, path, res)
         path.pop()
+#just iterative converted to recursive because it don't have path to explore just add subarray starting from a index
 def find_all_subarrays(arr, start, res):
     if start == len(arr):
         return
