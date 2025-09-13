@@ -13,3 +13,6 @@ for num in arr:
         count += prefixsum_count[prefix_sum]
     prefixsum_count[prefix_sum] = prefixsum_count.get(prefix_sum, 0) + 1
 print(f'No. of subarrays that have zero sum is : {count}')
+
+#TC: O(N) : num iterates through each number in nums O(N)
+#SC: O(N) prefixsum_count stores O(N) in worst case
