@@ -23,4 +23,4 @@ class Solution:
         return int(stack.pop())
     
 #TC: O(N) : s iterates through each token of tokens O(N)
-#SC: O(N) : for stack
+#SC: O(N) : stack stores all if no operator
