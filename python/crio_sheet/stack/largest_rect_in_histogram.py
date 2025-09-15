@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         max_area = 0
@@ -11,3 +12,9 @@ class Solution:
                 max_area = max( max_area, height * width )
             stack.append(i)
         return max_area
+
+'''
+if height smaller, keep popping all the bigger ones than this and update area of popped height to max. 
+when this height became bigger add
+'''
+
