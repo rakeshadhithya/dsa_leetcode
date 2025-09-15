@@ -25,6 +25,8 @@ class Solution:
         # reverse next of kth digit(k) till last
         self.reverse(nums, k, len(nums)-1)
         
+#TC: O(N) : full reverse O(N/2) + 1st part reverse O(K/2) + 2nd part reverse O((N-k)/2)
+#SC: O(1) : in place reversal and remaining all constant space O(1)
 
 
 '''

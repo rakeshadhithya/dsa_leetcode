@@ -14,7 +14,11 @@ class Solution:
             return False
         s1_counter = Counter(s1)
         return self.helpInclusion(s2, len(s1), 0, s1_counter)
-    
+# TC: O(n * m) – build Counter for each of m-n+1 windows
+# SC: O(n + m) – Counter storage + recursion depth
+
+
+
 #SLIDING WINDOW(MOST OPTIMISED)
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -43,4 +47,8 @@ class Solution:
             if curr_map == s1_map:
                 return True
         return False
+    
+# TC: O(n + m) : build maps O(n), slide window across m characters
+# SC: O(Σ) : hashmap for counts (constant if alphabet fixed, e.g., 26 letters)
+
     

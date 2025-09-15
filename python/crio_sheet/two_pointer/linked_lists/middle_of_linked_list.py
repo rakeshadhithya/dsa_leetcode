@@ -13,6 +13,8 @@ class Solution:
             slow = slow.next
         return slow
 
+# TC: init O(N), showFirstUnique O(1) amortised, add(value) O(1)
+# SC: count O(N+M), queue O(N+M)  (M = new additions)
 
 
 

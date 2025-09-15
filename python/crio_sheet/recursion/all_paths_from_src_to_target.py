@@ -17,3 +17,6 @@ class Solution:
         self.dfs(graph, 0, [0], res)
         return res
     
+# TC: O(P × L) – P = number of paths, L = path length; worst case O(2^n × n)
+# SC: O(P × L + n) – store all paths + recursion depth
+

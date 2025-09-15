@@ -16,6 +16,8 @@ class Solution:
                 return True
         return False
 
+# TC: O(N) : in worst case, fast/slow traverse through all N nodes
+# SC: O(1) : constant extra space (two pointers)
 
 '''
 If a cycle exists in a linked list, then two pointers moving at different speeds will eventually meet inside

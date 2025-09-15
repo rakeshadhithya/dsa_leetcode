@@ -33,3 +33,6 @@ class Solution:
         
         l, r = res
         return s[l:r+1] if resLen != float("inf") else ""
+
+# TC: O(|s| + |t|) : build need Counter O(|t|) + slide window across s O(|s|) with O(1) dict ops
+# SC: O(|s| + |t|) : need stores O(|t|), window stores up to O(|s|) unique chars (bounded by alphabet size Σ)

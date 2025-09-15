@@ -12,6 +12,10 @@ def find_all_subarrays(arr, start, res):
     for end in range(start, len(arr)):
       res.append(arr[start:end+1])
     find_all_subarrays(arr, start + 1, res)
+    
+# TC: O(N^3) – generating N^2 subarrays, each slicing costs up to O(N)
+# SC: O(N^3) – for storing all subarrays (O(N^2) subarrays * up to O(N) each)
+
 
 arr = eval(input('Enter the array:  '))
 res = []

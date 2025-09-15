@@ -20,3 +20,6 @@ class Solution:
         return self.dfs_pre(node1.left, node2.left) and self.dfs_pre(node1.right, node2.right)
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         return self.dfs_pre(p,q)
+    
+# TC: O(N) : each node visited once
+# SC: O(H) : recursion depth, O(N) in worst case (skewed tree), O(log N) for balanced tree

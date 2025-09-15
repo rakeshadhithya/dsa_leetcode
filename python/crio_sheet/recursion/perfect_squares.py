@@ -11,6 +11,8 @@ class Solution:
                 dp[i] = min(dp[i], dp[ i - j * j] + 1)
                 j += 1
         return dp[n]
+# TC: O(n * sqrt(n)) : for each i up to n, check all squares ≤ i
+# SC: O(n) : DP array of size n+1
 
 #RECURSIVE WITH MEMOIZATION
 from functools import lru_cache
@@ -27,6 +29,9 @@ class Solution:
         return ans
     def numSquares(self, n: int) -> int:
         return self.helper(n)
+# TC: O(n * sqrt(n)) : each state 0..n solved once, each tries up to √n squares
+# SC: O(n) : memoization cache + recursion depth
+
 '''
 For each number, subtract each possible square, look up the best solution for the smaller number(number after subtraction) 
 and add 1 for this subtracted square , and take the minimum.

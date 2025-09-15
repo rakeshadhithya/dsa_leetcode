@@ -16,3 +16,6 @@ class Solution:
             nh = curr
             curr = temp
         return nh
+
+#TC: O(N) : curr iterates through each node
+#SC: O(1) : all constant space O(1)

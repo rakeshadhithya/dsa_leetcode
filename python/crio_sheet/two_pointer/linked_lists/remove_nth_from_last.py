@@ -21,3 +21,6 @@ class Solution:
             slow = slow.next
         slow.next = slow.next.next
         return head
+    
+#TC: O(N) : fast iterates through each node O(N), slow does not iterate it moves 1 step with fast 
+#SC: O(1) : all constant space O(1)

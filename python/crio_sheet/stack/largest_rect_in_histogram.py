@@ -12,6 +12,9 @@ class Solution:
                 max_area = max( max_area, height * width )
             stack.append(i)
         return max_area
+# TC: O(n) : for loop O(n), each index pushed once O(n), each index popped once O(n)
+# SC: O(n) : stack stores up to n indices, rest variables take O(1)
+
 
 '''
 if height smaller, keep popping all the bigger ones than this and update area of popped height to max. 
