@@ -1,34 +1,31 @@
-# LeetCode DSA Solutions
+dsa_leetcode
 
-This repository contains my solutions to LeetCode Data Structures & Algorithms problems in **Java** and **Python**. Solutions are organized by programming language and topic for easy reference.
+This repository contains my solutions to LeetCode problems, ranging from basic to advanced concepts in Data Structures and Algorithms (DSA). Each problem is accompanied by detailed explanations, including time and space complexity analysis to give a clear understanding of the efficiency of each solution. I’ve also provided alternate solutions where applicable, to demonstrate different problem-solving techniques.
 
-## Folder Structure
+📚 Contents
 
-leetcode-dsa/
+Data Structures: Arrays, Linked Lists, Trees, Graphs, Stacks, Queues, etc.
 
-- `java/`
-  - `crio_sheet/ `
-  - `crio_dsa_1/`
-- `python/`
-  - `crio_sheet/`
-  - `crio_dsa_1/`
+Algorithms: Dynamic Programming, Greedy Algorithms, Backtracking, Sorting, etc.
 
-Each topic folder contains solution files named as:
+Problem Solving Approaches: Multiple solutions for many problems to showcase diverse strategies.
 
-### Examples:
+🛠️ Features
 
-- `two-sum.java`
-- `binary-tree-inorder-traversal.py`
+Comprehensive Coverage: The repository covers a wide variety of topics in DSA with an increasing level of difficulty.
 
-## Features
+Detailed Time & Space Complexity Analysis: For each solution, I’ve included explanations of the time and space complexity, helping users understand the performance trade-offs.
 
-- Time and space Complexities
-- Clean and readable code
-- includes comments or explanations
+Multiple Approaches: For several problems, I’ve provided different solutions, showing various techniques and algorithmic optimizations.
 
-## About Me
+Clear Documentation: Each problem is well-commented, explaining the thought process and the reasoning behind each solution.
 
-This repo is part of my DSA practice. Feel free to suggest improvements, or reach out if you found it helpful.
-linkedin.com/in/rakeshadhithya/
+📂 Repository Structure
 
----
+Each folder in this repository corresponds to a specific data structure or algorithm concept and contains:
+
+Problem Description: Clear and concise problem statement.
+
+Solution: Code implementation in Python, with alternate solutions where applicable.
+
+Complexity Analysis: Time and space complexity for each solution.
