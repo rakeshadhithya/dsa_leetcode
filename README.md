@@ -4,14 +4,6 @@ This repository contains my solutions to LeetCode problems, ranging from basic t
 
 ---
 
-## 📚 Contents
-
-- **Data Structures**: Arrays, Linked Lists, Trees, Graphs, Stacks, Queues, etc.
-- **Algorithms**: Dynamic Programming, Greedy Algorithms, Backtracking, Sorting, etc.
-- **Problem Solving Approaches**: Multiple solutions for many problems to showcase diverse strategies.
-
----
-
 ## 🛠️ Features
 
 - **Comprehensive Coverage**: The repository covers a wide variety of topics in DSA with an increasing level of difficulty.
